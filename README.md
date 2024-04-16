@@ -1,4 +1,5 @@
 # Rathish-and-Idara
+#The 2019whd file represents the codes for the control group, and the 2021whd file represents the codes for the treatment group. The visualization of the bar charts is in the presentation slides. 
 # Title of the project
 #Exploring the Relationship between Economic Prosperity and National Hapiness
 # Introduction to your project.
