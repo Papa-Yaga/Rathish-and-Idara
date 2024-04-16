@@ -1,4 +1,5 @@
 # Rathish-and-Idara
+#The 2019whd file represents the codes for the control group, and the 2021whd file represents the codes for the treatment group. The visualization of the bar charts is in the presentation slides. 
 # Title of the project
 #Exploring the Relationship between Economic Prosperity and National Hapiness
 # Introduction to your project.
@@ -24,3 +25,22 @@
 #https://rathishdata.kanbantool.com/b/1049717#
 #https://www.kaggle.com/search?q=world+happiness+report+2019
 #https://www.kaggle.com/search?q=World+Happiness+Report+2021
+
+######summary########
+#Title of the Project
+# Exploring the Relationship between Economic Prosperity and National Happiness
+
+Introduction
+# Rationale: Economic prosperity often correlates with access to resources, healthcare, education, and overall well-being. Therefore, countries with higher GDP per capita may prioritize social welfare programs and have happier citizens.
+
+Data Used
+# We utilized data from the World Happiness Report and extracted GDP data using the World Bank API. Challenges included the extraction process due to the World Bank's unique data format. Cleaning and formatting challenges were resolved efficiently.
+
+Questions to Answer
+# Main Question: Is there a correlation between GDP rates and happiness? Conclusion: We found a positive correlation between the two.
+
+Methodology
+# We employed a difference-in-difference methodology to ensure consistency amidst the COVID-19 pandemic's potential bias. The control group comprised 2019 data, and the treatment group comprised 2021 data. Cleaning involved column renaming, dropping irrelevant columns and rows, value replacement, and GDP conversion to logarithm for better visualization and analysis.
+
+Conclusions
+# Our analysis confirms a positive correlation between GDP per capita and national happiness, consistent with our hypothesis.
